@@ -128,5 +128,17 @@
     "total_recovery": 0,
     "fee": 0,
     "fee_currency": "ADA"
+  },
+  {
+    "type": "transfer_out",
+    "currency": "XRP",
+    "amount": 36.01,
+    "price": 1,
+    "date": "2024-03-14",
+    "total_invested": 0,
+    "total_recovery": 0,
+    "fee": 0,
+    "fee_currency": "XRP",
+    "comment": "Transferencia a Ledger"
   }
 ]
