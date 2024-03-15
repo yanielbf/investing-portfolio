@@ -2,6 +2,10 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
-    '@nuxt/content'
+    '@nuxt/content',
+    '@nuxt/ui'
   ],
+  routeRules: {
+    '/**': { ssr: false },
+  },
 })

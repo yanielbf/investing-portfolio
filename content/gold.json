@@ -1,0 +1,46 @@
+{
+  "columns": [
+    {
+      "key": "currency",
+      "label": "Name"
+    },
+    {
+      "key": "type",
+      "label": "Price"
+    },
+    {
+      "key": "date",
+      "label": "Date"
+    },
+    {
+      "key": "amount",
+      "label": "Quantity"
+    },
+    {
+      "key": "price",
+      "label": "Current value"
+    },
+    {
+      "key": "fee",
+      "label": "Fee"
+    },
+    {
+      "key": "total_invested",
+      "label": "Invested value"
+    }
+  ],
+  "transactions": [
+    {
+      "currency": "XAU",
+      "type": "buy",
+      "amount": 1,
+      "price": 67.57,
+      "date": "2024-03-13",
+      "change_currency": "USD",
+      "total_invested": 2155,
+      "total_recovery": 0,
+      "fee": 0,
+      "fee_currency": "USD"
+    }
+  ]
+}

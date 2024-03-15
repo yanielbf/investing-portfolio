@@ -1,0 +1,70 @@
+{
+  "columns": [
+    {
+      "key": "currency",
+      "label": "Name"
+    },
+    {
+      "key": "type",
+      "label": "Price"
+    },
+    {
+      "key": "date",
+      "label": "Date"
+    },
+    {
+      "key": "amount",
+      "label": "Quantity"
+    },
+    {
+      "key": "price",
+      "label": "Current value"
+    },
+    {
+      "key": "fee",
+      "label": "Fee"
+    },
+    {
+      "key": "total_invested",
+      "label": "Invested value"
+    }
+  ],
+  "transactions": [
+    {
+      "currency": "IAU",
+      "type": "buy",
+      "amount": 159.03271,
+      "price": 38.51,
+      "date": "2024-02-7",
+      "change_currency": "USD",
+      "total_invested": 6124.5,
+      "total_recovery": 0,
+      "fee": 0.15,
+      "fee_currency": "USD"
+    },
+    {
+      "currency": "MCHI",
+      "type": "buy",
+      "amount": 157.1,
+      "price": 38.19,
+      "date": "2024-02-17",
+      "change_currency": "USD",
+      "total_invested": 5999.85,
+      "total_recovery": 0,
+      "fee": 25.15,
+      "fee_currency": "USD"
+    },
+    {
+      "currency": "MCHI",
+      "type": "buy",
+      "amount": 300.48,
+      "price": 40.1,
+      "date": "2024-02-27",
+      "change_currency": "USD",
+      "total_invested": 12049.5,
+      "total_recovery": 0,
+      "fee": 25.15,
+      "fee_currency": "USD"
+    }
+  ]
+}

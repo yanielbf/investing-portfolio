@@ -1,0 +1,70 @@
+{
+  "columns": [
+    {
+      "key": "currency",
+      "label": "Name"
+    },
+    {
+      "key": "type",
+      "label": "Price"
+    },
+    {
+      "key": "date",
+      "label": "Date"
+    },
+    {
+      "key": "amount",
+      "label": "Quantity"
+    },
+    {
+      "key": "price",
+      "label": "Current value"
+    },
+    {
+      "key": "fee",
+      "label": "Fee"
+    },
+    {
+      "key": "total_invested",
+      "label": "Invested value"
+    }
+  ],
+  "transactions": [
+    {
+      "currency": "Terreno Chui 1",
+      "type": "buy",
+      "amount": 1,
+      "price": 10500,
+      "date": "2023-05-17",
+      "change_currency": "USD",
+      "total_invested": 10500,
+      "total_recovery": 0,
+      "fee": 0,
+      "fee_currency": "USD"
+    },
+    {
+      "currency": "Terreno Chui 2",
+      "type": "buy",
+      "amount": 1,
+      "price": 10500,
+      "date": "2023-05-17",
+      "change_currency": "USD",
+      "total_invested": 10500,
+      "total_recovery": 0,
+      "fee": 0,
+      "fee_currency": "USD"
+    },
+    {
+      "currency": "Terreno Chui 3",
+      "type": "buy",
+      "amount": 1,
+      "price": 3000,
+      "date": "2023-05-17",
+      "change_currency": "USD",
+      "total_invested": 3000,
+      "total_recovery": 0,
+      "fee": 0,
+      "fee_currency": "USD"
+    }
+  ]
+}
