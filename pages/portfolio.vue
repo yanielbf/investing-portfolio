@@ -215,7 +215,6 @@ onMounted(async () => {
 <template>
   <div class="p-10">
     <div class="mb-5 grid grid-cols-3 gap-2">
-      <div></div>
       <SummaryCard title="Total Invested" :amount="totalInvested" />
       <SummaryCard title="Total Current" :amount="totalCurrent" />
       <SummaryCard
