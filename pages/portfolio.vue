@@ -45,6 +45,15 @@ const totalInvested = computed(() => {
   );
 });
 
+const totalCurrent = computed(() => {
+  return round(
+    criptoDataSummary.value.totalCurrentValue +
+      stockDataSummary.value.totalCurrentValue +
+      goldDataSummary.value.totalCurrentValue +
+      propertiesDataSummary.value.totalCurrentValue
+  );
+});
+
 function round(num) {
   return Math.round((num + Number.EPSILON) * 100) / 100;
 }
@@ -208,6 +217,7 @@ onMounted(async () => {
     <div class="mb-5 grid grid-cols-3 gap-2">
       <div></div>
       <SummaryCard title="Total Invested" :amount="totalInvested" />
+      <SummaryCard title="Total Current" :amount="totalCurrent" />
       <SummaryCard
         title="Recovery Invested"
         :amount="round(criptoDataSummary.totalSell)"
