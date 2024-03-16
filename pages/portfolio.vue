@@ -203,7 +203,7 @@ onMounted(async () => {
   );
   goldDataSummary.value = groupData(
     goldData.value.transactions,
-    (symbol) => metalsPrices.value[symbol]
+    (symbol) => metalsPrices.value[symbol] / 31.10
   );
   propertiesDataSummary.value = groupData(
     propertiesData.value.transactions,
