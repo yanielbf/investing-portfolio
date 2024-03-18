@@ -65,6 +65,30 @@
       "total_recovery": 0,
       "fee": 25.15,
       "fee_currency": "USD"
+    },
+    {
+      "currency": "MCHI",
+      "type": "sell",
+      "amount": 457.59154,
+      "price": 40.40,
+      "date": "2024-03-18",
+      "change_currency": "USD",
+      "total_invested": 18493.38,
+      "total_recovery": 0,
+      "fee": 0.10,
+      "fee_currency": "USD"
+    },
+    {
+      "currency": "IAU",
+      "type": "sell",
+      "amount": 159.03271,
+      "price": 40.79,
+      "date": "2024-03-18",
+      "change_currency": "USD",
+      "total_invested": 6488.55,
+      "total_recovery": 0,
+      "fee": 0.10,
+      "fee_currency": "USD"
     }
   ]
 }
