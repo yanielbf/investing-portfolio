@@ -95,7 +95,7 @@ async function getStockInfo() {
     stockPrices.value = response.quoteResponse.result
       .filter((x) => values.includes(x.symbol))
       .reduce((acc, it) => {
-        acc[it.symbol] = it.ask;
+        acc[it.symbol] = it.ask || it.bid;
         return acc;
       }, {});
   }
