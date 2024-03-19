@@ -6,7 +6,8 @@ export default defineNuxtConfig({
   },
   modules: [
     '@nuxt/content',
-    '@nuxt/ui'
+    '@nuxt/ui',
+    '@tresjs/nuxt'
   ],
   routeRules: {
     '/**': { ssr: false },
